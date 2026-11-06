@@ -1,6 +1,6 @@
 Summary:	Metapackage for Cinnamon desktop environment
 Name:		task-cinnamon
-Version:	6.6.9
+Version:	6.8.0
 Release:	1
 Group:		Graphical desktop/Cinnamon
 License:	GPLv2+
@@ -26,10 +26,10 @@ Requires:       mint-themes
 Requires:       cinnamon-themes
 Requires:       lib64cjs-gir1.0
 Requires:       openmandriva-cinnamon-config
+Requires:       lib64gcr-gir1
 
 %description
-This package is a meta-package, meaning that its purpose is to contain
-dependencies for running Cinnamon.
+Right now, this package simply does what just installing the cinnamon package itself will do.
 
 %files
 
